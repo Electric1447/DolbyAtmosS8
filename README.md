@@ -11,7 +11,7 @@ This module adds ported Dolby Atmos libraries from S9 to S8
  - **Galaxy S8:** SM-G950F/FD/N
  - **Galaxy S8+:** SM-G955F/FD/N
  
- #### [XDA Thread]() Soon
+ #### [XDA Thread](https://forum.xda-developers.com/galaxy-s8/themes/module-dolby-atmos-s8-t3869236/post78206757#post78206757)
  
  ### FAQ:
  - **Does it work with device X?**

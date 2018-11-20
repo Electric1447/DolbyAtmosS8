@@ -22,7 +22,7 @@ This module adds ported Dolby Atmos libraries from S9 to S8
    If you have other sound mods installed, you'll need to install Audio Modification Library module!
  
  ### Credits:
- - [ImbaWind](https://forum.xda-developers.com/member.php?u=4170211) for creating the mod and allowing me to use it in my module.
+ - [ImbaWind](https://forum.xda-developers.com/member.php?u=4170211) for creating the [original mod](https://forum.xda-developers.com/galaxy-s8/themes/audio-dolby-atmos-s9-t3810359) and allowing me to use it in my module.
  
  
  ### Changelog:

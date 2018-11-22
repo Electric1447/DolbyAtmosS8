@@ -1,7 +1,7 @@
 id=DolbyAtmosS8
 name=Dolby Atmos For S8.
-version=v1.0
-versionCode=100
+version=v1.1
+versionCode=110
 author=Electric1447
 description=Adds Dolby Atmos For S8.
 minMagisk=17000

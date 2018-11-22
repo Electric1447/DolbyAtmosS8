@@ -104,3 +104,18 @@ set_permissions() {
 # difficult for you to migrate your modules to newer template versions.
 # Make update-binary as clean as possible, try to only do function calls in it.
 
+device_check() {
+  if [ "$(grep_prop ro.product.device)" == "$1" ] || [ "$(grep_prop ro.build.product)" == "$1" ]; then
+    return 0
+  else
+    return 1
+  fi
+}
+
+if ! device_check "dreamlte" && ! device_check "dream2lte"; then
+  ui_print "This mod is only for S8 & S8+! Aborting!"
+  $BOOTMODE || recovery_cleanup
+  rm -rf $TMPDIR
+  exit 1
+fi
+

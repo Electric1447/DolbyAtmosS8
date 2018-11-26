@@ -28,3 +28,4 @@ This module adds ported Dolby Atmos libraries from S9 to S8 (Works with headphon
  ### Changelog:
  - **1.0:** Initial Release.
  - **1.1:** Added device checking.
+ - **1.2:** Fixed bugs & optimization.

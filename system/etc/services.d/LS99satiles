@@ -1,0 +1,5 @@
+#!/system/bin/sh
+
+PM=/system/bin/pm
+$PM enable 'com.sec.android.app.soundalive/com.sec.android.app.soundalive.DolbyTile'
+$PM enable 'com.sec.android.app.soundalive/com.sec.android.app.soundalive.UHQTile'

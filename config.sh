@@ -87,11 +87,13 @@ set_permissions() {
   # The following is default permissions, DO NOT remove
   set_perm_recursive  $MODPATH  0  0  0755  0644
   
-  set_perm_recursive $MODPATH/system/vendor/etc  0	2000	0755	u:object_r:system_file:s0
-  set_perm_recursive $MODPATH/system/vendor/lib	0	2000	0755	u:object_r:system_file:s0
-  set_perm_recursive $MODPATH/system/vendor/lib/soundfx	0	2000	0755	u:object_r:system_file:s0
+  set_perm $MODPATH/system/vendor/etc  0	2000	0755	u:object_r:system_file:s0
+  set_perm $MODPATH/system/vendor/lib	0	2000	0755	u:object_r:system_file:s0
+  set_perm $MODPATH/system/vendor/lib/soundfx	0	2000	0755	u:object_r:system_file:s0
   set_perm $MODPATH/system/vendor/etc/audio_effects.conf	0	0	0644	u:object_r:system_file:s0
-  set_perm $MODPATH/system/vendor/etc/audio_policy.conf	0	0	0644	u:object_r:system_file:s0
+  set_perm $MODPATH/system/etc/services.d	0	0	0777	u:object_r:system_file:s0
+  set_perm_recursive $MODPATH/system/etc/services.d	0	0	0777	u:object_r:system_file:s0
+
 }
 
 ##########################################################################################

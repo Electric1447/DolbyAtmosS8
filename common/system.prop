@@ -1,5 +1,5 @@
 # This file will be read by resetprop
-# Example: Change dpi
-# ro.sf.lcd_density=320
 dolby.fake.model=SM-G965F
 dolby.fake.device=star2lte
+dolby.fake.brand=samsung
+dolby.fake.manufacturer=samsung

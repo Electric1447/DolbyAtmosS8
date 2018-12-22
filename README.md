@@ -4,7 +4,7 @@
 **If you want to also use other sound mods (like Viper4Android), you'll need to install Audio Modification Library module!**
 
 ### About:
-This module adds ported Dolby Atmos libraries from S9 to S8 (Works with headphones only).
+This module adds ported Dolby Atmos libraries from S9 to S8 ~~(Works with headphones only)~~.
 
 ### Compatibility:
  - **Roms:** Stock/Stock based roms.
@@ -29,3 +29,7 @@ This module adds ported Dolby Atmos libraries from S9 to S8 (Works with headphon
  - **1.0:** Initial Release.
  - **1.1:** Added device checking.
  - **1.2:** Fixed bugs & optimization.
+ - **2.0:** Rebased to Dolby Atmos Libs 1.7.0,
+            Added speakers support!,
+            Updated Sound Alive to 9.1.06 with Game mode,
+            General Fixes and Optimizations.

@@ -23,6 +23,7 @@ This module adds ported Dolby Atmos libraries from S9 to S8 ~~(Works with headph
  
  ### Credits:
  - [ImbaWind](https://forum.xda-developers.com/member.php?u=4170211) for creating the [original mod](https://forum.xda-developers.com/galaxy-s8/themes/audio-dolby-atmos-s9-t3810359) and allowing me to use it in my module.
+ - [SilentWorld](https://forum.xda-developers.com/member.php?u=9545933) for fixing Dolby Atmos with Speakers.
  
  
  ### Changelog:
